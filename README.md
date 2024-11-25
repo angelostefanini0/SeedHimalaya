@@ -18,12 +18,6 @@ urbs is a [linear programming](https://en.wikipedia.org/wiki/Linear_programming)
   * The model itself is quite small thanks to relying on package [Pyomo](http://www.pyomo.org/).
   * The small codebase includes reporting and plotting functionality.
 
-## Screenshots
-
-<a href="doc/img/plot.png"><img src="doc/img/plot.png" alt="Timeseries plot of 8 days of electricity generation in vertex 'North' in scenario_all_together in hourly resolution: Hydro and biomass provide flat base load of about 50% to cover the daily fluctuating load, while large share of wind and small part photovoltaic generation cover the rest, supported by a day-night storage." style="width:400px"></a>
-
-<a href="doc/img/comparison.png"><img src="doc/img/comparison.png" alt="Bar chart of cumulated annual electricity generation costs for all 5 scenarios defined in runme.py." style="width:400px"></a>
-
 ## Installation
 
 There are 2 ways to get all required packages under Windows. We recommend using the Python distribution Anaconda. If you don't want to use it or already have an existing Python (this repository was developed and tested for Python 3.8.5) installation, you can also download the required packages by yourself.
