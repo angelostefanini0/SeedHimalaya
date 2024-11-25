@@ -1,0 +1,83 @@
+[
+    {
+        "support_timeframe": 2020,
+        "Process": "Wind park",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Wind park",
+        "Commodity": "Wind",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Photovoltaics",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Photovoltaics",
+        "Commodity": "Solar",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+	    {
+        "support_timeframe": 2020,
+        "Process": "Slack powerplant",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Slack powerplant",
+        "Commodity": "Slack",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Slack neg",
+        "Commodity": "Elec",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Slack neg",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 0.0,
+        "ratio-min": NaN
+    }, 
+    {
+        "support_timeframe": 2020,
+        "Process": "Hydro plant",
+        "Commodity": "Elec",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Process": "Hydro plant",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 0.0,
+        "ratio-min": NaN
+    }
+	
+]

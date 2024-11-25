@@ -1,0 +1,14 @@
+[
+    {
+        "support_timeframe": 2020,
+        "Property": "CO2 limit",
+        "value": Infinity,
+        "description": "Limits the sum of all created (as calculated by commodity_balance) CO2 in all sites; Only relevant if not minimized"
+    },
+    {
+        "support_timeframe": 2020,
+        "Property": "Cost limit",
+        "value": Infinity,
+        "description": "Limits the sum of all costs in all sites; Only relevant if not minimized"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "Site": "Mid",
+        "Process": "Hydro plant",
+        "inst-cap": 0,
+        "cap-lo": 0,
+        "cap-up": 1400,
+        "max-grad": Infinity,
+        "min-fraction": 0.0,
+        "inv-cost": 1600000.0,
+        "fix-cost": 20000,
+        "var-cost": 0,
+        "wacc": 0.07,
+        "depreciation": 50,
+        "area-per-cap": NaN,
+        "support_timeframe": 2020
+    }
+]

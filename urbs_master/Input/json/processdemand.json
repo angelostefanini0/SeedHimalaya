@@ -1,0 +1,16 @@
+[
+    {
+        "Process": "Hydro plant",
+        "Commodity": "Hydro",
+        "Direction": "In",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    },
+    {
+        "Process": "Hydro plant",
+        "Commodity": "Elec",
+        "Direction": "Out",
+        "ratio": 1.0,
+        "ratio-min": NaN
+    }
+]

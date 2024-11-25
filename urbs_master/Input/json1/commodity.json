@@ -1,0 +1,83 @@
+[
+    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Elec",
+        "Type": "Demand",
+        "price": NaN,
+        "max": NaN,
+        "maxperhour": NaN
+    },
+    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Wind",
+        "Type": "SupIm",
+        "price": NaN,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },   
+    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Slack",
+        "Type": "Stock",
+        "price": 999.0,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Solar",
+        "Type": "SupIm",
+        "price": NaN,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+	    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Gas",
+        "Type": "Stock",
+        "price": 999.0,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+	    {
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Hydro",
+        "Type": "SupIm",
+        "price": NaN,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+		{
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Coal",
+        "Type": "Stock",
+        "price": 999.0,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+		{
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Lignite",
+        "Type": "Stock",
+        "price": 999.0,
+        "max": Infinity,
+        "maxperhour": Infinity
+    },
+		{
+        "support_timeframe": 2020,
+        "Site": "Mid",
+        "Commodity": "Sla",
+        "Type": "Stock",
+        "price": 999.0,
+        "max": Infinity,
+        "maxperhour": Infinity
+    }
+]
