@@ -1,0 +1,156 @@
+body {
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #f0f0f0;
+  }
+
+ .container-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:20px;
+ } 
+  .container {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Colore di sfondo coerente con l'immagine allegata */
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+  h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  input[type="text"],
+  button {
+    width: calc(100% - 5px);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .row input[type="text"] {
+    flex: 1;
+  }
+  .button {
+    padding: 10px 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 10;
+  }
+  .row input[type="text"] {
+    flex: 2;
+    width: calc(100% - 16px);
+  }
+  .button {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    font-size:medium;
+  }
+
+  .button1 {
+    width: 20%;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    font-size:medium;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 10;
+  }
+
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  #map {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hh {
+    padding: 10px 90px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 0;
+    font-family: "Roboto", sans-serif;
+    border-radius: 5px;
+    font-size:medium;
+  }
+
+
+  .progress-container {
+    position: relative;
+    width: 80%;
+    margin-right:10%; 
+    margin-left:10%;
+    height: 40px;
+    background-color: #f3f3f3;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 80%;
+    width: 0%;
+   
+}
+
+.progress-steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #f3f3f3;
+    border-radius: 10px;
+}
+
+#step1 {
+   background-color: #007bff;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+  
+.info-content {
+  display: none; /* Nascondi il contenuto informativo di default */
+  text-align: center; /* Centra il testo */
+  margin-top: 10px; /* Aggiungi margine sopra il contenuto informativo */
+}
+
+.fa-info-circle {
+  margin-left:50%;
+  color: #007bff;
+  cursor: pointer;
+}

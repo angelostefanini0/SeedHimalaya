@@ -1,0 +1,200 @@
+body, html {
+    height: 130%;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    margin-bottom: 120px;
+    font-family: "Roboto", sans-serif;
+}
+.progress-container {
+    position: relative;
+    width: 80%;
+    margin-right:10%; 
+    margin-left:10%;
+    height: 40px;
+    background-color: #f3f3f3;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 80%;
+    width: 0%;
+   
+}
+
+.progress-steps {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #f3f3f3;
+    border-radius: 10px;
+}
+
+#step1 {
+   background-color: #007bff;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+#step2 {
+    background-color: #007bff;
+    border-color: #f8f9fa;
+    border-width: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+ }
+
+
+.step.active {
+    color: #d63031;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 40px;
+    width: 45%;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    padding: 40px;
+    flex-direction: column; /* Imposta la direzione del layout su colonna */
+    justify-content: flex-start; /* Allinea i contenuti in alto */
+    min-height: 100vh; /* Altezza minima pari all'altezza della viewport */
+    height: auto; /* Altezza del contenitore automatica */
+    flex-grow: 1; /* Fai crescere il contenitore in base al contenuto */
+    overflow-y: auto; /* Aggiunge lo scorrimento verticale se necessario */
+}
+.container h1 {
+    font-size: large;
+    border-top: 20px; 
+    font-weight: bold;
+}
+
+.list-container {
+    border-radius: 5px;
+    padding: 20px; /* Aumentato padding */
+    margin-bottom: 20px;
+    background-color: #f2f2f2; /* Cambiato colore sfondo */
+}
+
+.list-container h2 {
+    margin-top: 5px;
+    font-size: medium;
+    color: rgb(60, 60, 152); /* Cambiato colore testo */
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease; /* Aggiunto effetto transizione */
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambiato colore hover */
+}
+
+.list-container ul {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.list-container ul li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.list-container ul li:hover {
+    background-color: #e0e0e0;
+}
+
+.fa-check-circle,
+.fa-chart-bar {
+    color: #0056b3; /* Cambiato colore icona */
+}
+
+.form-control {
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    border-color:#0056b3;
+}
+
+/* Stili per gli elementi interni al menu a tendina */
+.form-control option {
+    background-color: #fff;
+    color: #495057;
+    font-weight: normal;
+    font-size: medium;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-control option:hover {
+    background-color: #f8f9fa;
+    color:  #0056b3;
+}
+
+.custom-file-input {
+    color: white; /* Colore del testo */
+    background-color: #3498db; /* Colore di sfondo */
+    border: none; /* Rimuove il bordo */
+    padding: 10px 15px; /* Spaziatura interna */
+    border-radius: 5px; /* Bordo arrotondato */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+  }
+
+  #totalDemand {
+    background-color: #f2f2f2; /* Colore di sfondo */
+    padding: 10px; /* Spaziatura interna */
+    border-radius: 5px; /* Bordo arrotondato */
+    font-family: "Roboto", sans-serif; /* Famiglia di caratteri */
+    font-size: medium; /* Dimensione del testo */
+    color: #495057; /* Colore del testo */
+}
+
+#buttonupload {
+    margin-top: 30px; /* Aggiunto margine superiore */
+    margin-bottom:30px; 
+}
+
+#ted {
+    font-size: medium; /* Modificato la dimensione del testo */
+    color: #495057; /* Colore del testo */
+    margin-top: 10px; /* Aggiunto margine superiore */
+}
+
+#projectNameForm {
+  margin-top:30px;
+  margin-bottom:20px;  
+}
+
+#projectNameForm button:hover {
+    background-color:  #0056b3; /* Cambio colore hover */
+}
+
+
+
