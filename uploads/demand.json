@@ -1,0 +1,3803 @@
+[
+    {
+        "support_timeframe": 2020,
+        "t": 0,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 1,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 2,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 3,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 4,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 5,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 6,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 7,
+        "Mid": {
+            "Elec": 0.381709061963074
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 8,
+        "Mid": {
+            "Elec": 5.020341002143376
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 9,
+        "Mid": {
+            "Elec": 14.84476463002784
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 10,
+        "Mid": {
+            "Elec": 21.31046919234276
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 11,
+        "Mid": {
+            "Elec": 23.93874001620875
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 12,
+        "Mid": {
+            "Elec": 24.82602067638755
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 13,
+        "Mid": {
+            "Elec": 24.47176981420864
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 14,
+        "Mid": {
+            "Elec": 22.68959235084521
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 15,
+        "Mid": {
+            "Elec": 17.41511268208636
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 16,
+        "Mid": {
+            "Elec": 7.521041430661766
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 17,
+        "Mid": {
+            "Elec": 1.099831177486148
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 18,
+        "Mid": {
+            "Elec": 0.0300637223914209
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 19,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 20,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 21,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 22,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 23,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 24,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 25,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 26,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 27,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 28,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 29,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 30,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 31,
+        "Mid": {
+            "Elec": 0.3914296655363002
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 32,
+        "Mid": {
+            "Elec": 5.057319380684824
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 33,
+        "Mid": {
+            "Elec": 14.89346786030194
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 34,
+        "Mid": {
+            "Elec": 21.29954603987388
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 35,
+        "Mid": {
+            "Elec": 23.86478325912585
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 36,
+        "Mid": {
+            "Elec": 24.74514926315463
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 37,
+        "Mid": {
+            "Elec": 24.51165435258126
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 38,
+        "Mid": {
+            "Elec": 22.80854447910727
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 39,
+        "Mid": {
+            "Elec": 17.72116137603102
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 40,
+        "Mid": {
+            "Elec": 7.978611285459192
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 41,
+        "Mid": {
+            "Elec": 1.249748939811367
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 42,
+        "Mid": {
+            "Elec": 0.03317030703853439
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 43,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 44,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 45,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 46,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 47,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 48,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 49,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 50,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 51,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 52,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 53,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 54,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 55,
+        "Mid": {
+            "Elec": 0.3680801744789632
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 56,
+        "Mid": {
+            "Elec": 4.95630527344965
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 57,
+        "Mid": {
+            "Elec": 14.72340740397447
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 58,
+        "Mid": {
+            "Elec": 21.18961302832925
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 59,
+        "Mid": {
+            "Elec": 23.77429145472767
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 60,
+        "Mid": {
+            "Elec": 24.66988974476811
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 61,
+        "Mid": {
+            "Elec": 24.41244406868957
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 62,
+        "Mid": {
+            "Elec": 22.76765781665493
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 63,
+        "Mid": {
+            "Elec": 17.8186680489872
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 64,
+        "Mid": {
+            "Elec": 8.2277393316761
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 65,
+        "Mid": {
+            "Elec": 1.325609732645719
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 66,
+        "Mid": {
+            "Elec": 0.03727901576536191
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 67,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 68,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 69,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 70,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 71,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 72,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 73,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 74,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 75,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 76,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 77,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 78,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 79,
+        "Mid": {
+            "Elec": 0.3724895204297049
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 80,
+        "Mid": {
+            "Elec": 4.931653021088685
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 81,
+        "Mid": {
+            "Elec": 14.60084762902545
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 82,
+        "Mid": {
+            "Elec": 21.09391017871656
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 83,
+        "Mid": {
+            "Elec": 23.68119412772224
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 84,
+        "Mid": {
+            "Elec": 24.64052750923248
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 85,
+        "Mid": {
+            "Elec": 24.46204921063541
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 86,
+        "Mid": {
+            "Elec": 22.85133517731105
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 87,
+        "Mid": {
+            "Elec": 17.90244562205129
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 88,
+        "Mid": {
+            "Elec": 8.298589504111883
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 89,
+        "Mid": {
+            "Elec": 1.405579234206898
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 90,
+        "Mid": {
+            "Elec": 0.04279069820378908
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 91,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 92,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 93,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 94,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 95,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 96,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 97,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 98,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 99,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 100,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 101,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 102,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 103,
+        "Mid": {
+            "Elec": 0.3316028579773725
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 104,
+        "Mid": {
+            "Elec": 4.563973696241607
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 105,
+        "Mid": {
+            "Elec": 14.16532450398173
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 106,
+        "Mid": {
+            "Elec": 20.80309377078355
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 107,
+        "Mid": {
+            "Elec": 23.6231711435068
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 108,
+        "Mid": {
+            "Elec": 24.4298810276766
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 109,
+        "Mid": {
+            "Elec": 24.16401750932846
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 110,
+        "Mid": {
+            "Elec": 22.47654077149801
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 111,
+        "Mid": {
+            "Elec": 17.58998333399645
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 112,
+        "Mid": {
+            "Elec": 8.213308744928218
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 113,
+        "Mid": {
+            "Elec": 1.494167002853619
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 114,
+        "Mid": {
+            "Elec": 0.04730025656250221
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 115,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 116,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 117,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 118,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 119,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 120,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 121,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 122,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 123,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 124,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 125,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 126,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 127,
+        "Mid": {
+            "Elec": 0.3698839978224485
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 128,
+        "Mid": {
+            "Elec": 4.965925664614903
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 129,
+        "Mid": {
+            "Elec": 14.51847302967295
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 130,
+        "Mid": {
+            "Elec": 21.02907275075907
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 131,
+        "Mid": {
+            "Elec": 23.68720687220053
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 132,
+        "Mid": {
+            "Elec": 24.69213689933775
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 133,
+        "Mid": {
+            "Elec": 24.4287786911889
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 134,
+        "Mid": {
+            "Elec": 22.7408008913186
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 135,
+        "Mid": {
+            "Elec": 17.80022896592046
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 136,
+        "Mid": {
+            "Elec": 8.32845280168736
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 137,
+        "Mid": {
+            "Elec": 1.475627707378909
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 138,
+        "Mid": {
+            "Elec": 0.04399324709944591
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 139,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 140,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 141,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 142,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 143,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 144,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 145,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 146,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 147,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 148,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 149,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 150,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 151,
+        "Mid": {
+            "Elec": 0.3790033269478462
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 152,
+        "Mid": {
+            "Elec": 4.888962535292866
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 153,
+        "Mid": {
+            "Elec": 14.50775030202001
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 154,
+        "Mid": {
+            "Elec": 20.96383447316968
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 155,
+        "Mid": {
+            "Elec": 23.64090873971774
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 156,
+        "Mid": {
+            "Elec": 24.54943443038648
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 157,
+        "Mid": {
+            "Elec": 24.37396250402855
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 158,
+        "Mid": {
+            "Elec": 22.66253500069293
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 159,
+        "Mid": {
+            "Elec": 17.75503316992535
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 160,
+        "Mid": {
+            "Elec": 8.109488690269846
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 161,
+        "Mid": {
+            "Elec": 1.408986456077926
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 162,
+        "Mid": {
+            "Elec": 0.04649855729873099
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 163,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 164,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 165,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 166,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 167,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 168,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 169,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 170,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 171,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 172,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 173,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 174,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 175,
+        "Mid": {
+            "Elec": 0.3660759263195352
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 176,
+        "Mid": {
+            "Elec": 5.050504936942768
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 177,
+        "Mid": {
+            "Elec": 14.80107202015231
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 178,
+        "Mid": {
+            "Elec": 21.32169298203556
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 179,
+        "Mid": {
+            "Elec": 23.8355212359982
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 180,
+        "Mid": {
+            "Elec": 24.72220062172918
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 181,
+        "Mid": {
+            "Elec": 24.36664699824664
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 182,
+        "Mid": {
+            "Elec": 22.75412914157879
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 183,
+        "Mid": {
+            "Elec": 17.87238189965987
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 184,
+        "Mid": {
+            "Elec": 8.352203142376583
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 185,
+        "Mid": {
+            "Elec": 1.412493890356925
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 186,
+        "Mid": {
+            "Elec": 0.04920429231395888
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 187,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 188,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 189,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 190,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 191,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 192,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 193,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 194,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 195,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 196,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 197,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 198,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 199,
+        "Mid": {
+            "Elec": 0.3756963174847898
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 200,
+        "Mid": {
+            "Elec": 4.884653401750096
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 201,
+        "Mid": {
+            "Elec": 14.78072890133411
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 202,
+        "Mid": {
+            "Elec": 21.36147730800021
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 203,
+        "Mid": {
+            "Elec": 23.97842412976542
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 204,
+        "Mid": {
+            "Elec": 24.88594769635445
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 205,
+        "Mid": {
+            "Elec": 24.56426586676625
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 206,
+        "Mid": {
+            "Elec": 22.93721721094254
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 207,
+        "Mid": {
+            "Elec": 18.05236338437651
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 208,
+        "Mid": {
+            "Elec": 8.37635433269769
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 209,
+        "Mid": {
+            "Elec": 1.526736035444324
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 210,
+        "Mid": {
+            "Elec": 0.0538140630806434
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 211,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 212,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 213,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 214,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 215,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 216,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 217,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 218,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 219,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 220,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 221,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 222,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 223,
+        "Mid": {
+            "Elec": 0.3310015835295441
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 224,
+        "Mid": {
+            "Elec": 4.526093406028417
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 225,
+        "Mid": {
+            "Elec": 13.78361544201865
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 226,
+        "Mid": {
+            "Elec": 20.20272123462687
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 227,
+        "Mid": {
+            "Elec": 22.45840232565518
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 228,
+        "Mid": {
+            "Elec": 23.03382197222698
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 229,
+        "Mid": {
+            "Elec": 22.36540521105773
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 230,
+        "Mid": {
+            "Elec": 20.07515083927928
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 231,
+        "Mid": {
+            "Elec": 14.89767678143674
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 232,
+        "Mid": {
+            "Elec": 5.797087376329721
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 233,
+        "Mid": {
+            "Elec": 0.8661358420968359
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 234,
+        "Mid": {
+            "Elec": 0.02655628811242179
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 235,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 236,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 237,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 238,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 239,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 240,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 241,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 242,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 243,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 244,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 245,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 246,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 247,
+        "Mid": {
+            "Elec": 0.2917183196047541
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 248,
+        "Mid": {
+            "Elec": 3.430270724861124
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 249,
+        "Mid": {
+            "Elec": 9.586318946544413
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 250,
+        "Mid": {
+            "Elec": 14.66117549862423
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 251,
+        "Mid": {
+            "Elec": 17.53707118258755
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 252,
+        "Mid": {
+            "Elec": 18.69151812241812
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 253,
+        "Mid": {
+            "Elec": 18.70284212451889
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 254,
+        "Mid": {
+            "Elec": 17.23653417108132
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 255,
+        "Mid": {
+            "Elec": 12.86536914777669
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 256,
+        "Mid": {
+            "Elec": 5.796786739105807
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 257,
+        "Mid": {
+            "Elec": 1.173687722161072
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 258,
+        "Mid": {
+            "Elec": 0.05952617033501338
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 259,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 260,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 261,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 262,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 263,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 264,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 265,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 266,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 267,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 268,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 269,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 270,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 271,
+        "Mid": {
+            "Elec": 0.3604640314731366
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 272,
+        "Mid": {
+            "Elec": 4.852084369159391
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 273,
+        "Mid": {
+            "Elec": 14.18727102132747
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 274,
+        "Mid": {
+            "Elec": 20.67893059730698
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 275,
+        "Mid": {
+            "Elec": 23.67097246210916
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 276,
+        "Mid": {
+            "Elec": 24.68682564171528
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 277,
+        "Mid": {
+            "Elec": 24.21422392572214
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 278,
+        "Mid": {
+            "Elec": 22.1801124687186
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 279,
+        "Mid": {
+            "Elec": 17.70061783239688
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 280,
+        "Mid": {
+            "Elec": 9.087662004478709
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 281,
+        "Mid": {
+            "Elec": 2.042930148905022
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 282,
+        "Mid": {
+            "Elec": 0.08548118399960676
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 283,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 284,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 285,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 286,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 287,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 288,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 289,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 290,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 291,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 292,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 293,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 294,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 295,
+        "Mid": {
+            "Elec": 0.3975426224225557
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 296,
+        "Mid": {
+            "Elec": 5.442936726558782
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 297,
+        "Mid": {
+            "Elec": 15.72633318295227
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 298,
+        "Mid": {
+            "Elec": 22.01937176633247
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 299,
+        "Mid": {
+            "Elec": 24.4596441128441
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 300,
+        "Mid": {
+            "Elec": 25.01602340190133
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 301,
+        "Mid": {
+            "Elec": 24.76378877103731
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 302,
+        "Mid": {
+            "Elec": 23.16179321720646
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 303,
+        "Mid": {
+            "Elec": 18.81838703090991
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 304,
+        "Mid": {
+            "Elec": 9.799771375523498
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 305,
+        "Mid": {
+            "Elec": 2.162984613654762
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 306,
+        "Mid": {
+            "Elec": 0.08848755623874885
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 307,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 308,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 309,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 310,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 311,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 312,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 313,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 314,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 315,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 316,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 317,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 318,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 319,
+        "Mid": {
+            "Elec": 0.3927324268399283
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 320,
+        "Mid": {
+            "Elec": 5.074756339671848
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 321,
+        "Mid": {
+            "Elec": 14.4814946511315
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 322,
+        "Mid": {
+            "Elec": 20.62080740068357
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 323,
+        "Mid": {
+            "Elec": 23.31712244956214
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 324,
+        "Mid": {
+            "Elec": 23.97110862398351
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 325,
+        "Mid": {
+            "Elec": 23.71847314348761
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 326,
+        "Mid": {
+            "Elec": 22.24244458647681
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 327,
+        "Mid": {
+            "Elec": 18.22573085016704
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 328,
+        "Mid": {
+            "Elec": 9.893169339752847
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 329,
+        "Mid": {
+            "Elec": 2.197056832365039
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 330,
+        "Mid": {
+            "Elec": 0.09239584014963356
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 331,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 332,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 333,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 334,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 335,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 336,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 337,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 338,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 339,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 340,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 341,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 342,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 343,
+        "Mid": {
+            "Elec": 0.4214933879277211
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 344,
+        "Mid": {
+            "Elec": 5.626125008330508
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 345,
+        "Mid": {
+            "Elec": 16.05953943945719
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 346,
+        "Mid": {
+            "Elec": 22.35839034249973
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 347,
+        "Mid": {
+            "Elec": 24.77060321477936
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 348,
+        "Mid": {
+            "Elec": 25.54594661525411
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 349,
+        "Mid": {
+            "Elec": 25.38941483400277
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 350,
+        "Mid": {
+            "Elec": 24.00227468286262
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 351,
+        "Mid": {
+            "Elec": 19.88635066266115
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 352,
+        "Mid": {
+            "Elec": 10.48502382123195
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 353,
+        "Mid": {
+            "Elec": 2.173106066859874
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 354,
+        "Mid": {
+            "Elec": 0.09189477810977655
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 355,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 356,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 357,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 358,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 359,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 360,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 361,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 362,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 363,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 364,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 365,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 366,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 367,
+        "Mid": {
+            "Elec": 0.4169838295690078
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 368,
+        "Mid": {
+            "Elec": 5.460974959993635
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 369,
+        "Mid": {
+            "Elec": 15.71320535750802
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 370,
+        "Mid": {
+            "Elec": 22.09733701973422
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 371,
+        "Mid": {
+            "Elec": 24.65145066170137
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 372,
+        "Mid": {
+            "Elec": 25.47900472672922
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 373,
+        "Mid": {
+            "Elec": 25.22175947546662
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 374,
+        "Mid": {
+            "Elec": 23.72568843686155
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 375,
+        "Mid": {
+            "Elec": 19.44461436832321
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 376,
+        "Mid": {
+            "Elec": 10.0615261851448
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 377,
+        "Mid": {
+            "Elec": 2.144645742995996
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 378,
+        "Mid": {
+            "Elec": 0.0963041240605183
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 379,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 380,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 381,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 382,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 383,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 384,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 385,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 386,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 387,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 388,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 389,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 390,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 391,
+        "Mid": {
+            "Elec": 0.4480496760401429
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 392,
+        "Mid": {
+            "Elec": 5.655687668682072
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 393,
+        "Mid": {
+            "Elec": 15.78946699997426
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 394,
+        "Mid": {
+            "Elec": 22.03039513120932
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 395,
+        "Mid": {
+            "Elec": 24.60154488253161
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 396,
+        "Mid": {
+            "Elec": 25.4576594838313
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 397,
+        "Mid": {
+            "Elec": 25.25553105695299
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 398,
+        "Mid": {
+            "Elec": 23.8383271834214
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 399,
+        "Mid": {
+            "Elec": 19.70125834513797
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 400,
+        "Mid": {
+            "Elec": 10.45826710830359
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 401,
+        "Mid": {
+            "Elec": 2.286847149907416
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 402,
+        "Mid": {
+            "Elec": 0.09820815981197492
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 403,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 404,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 405,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 406,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 407,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 408,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 409,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 410,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 411,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 412,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 413,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 414,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 415,
+        "Mid": {
+            "Elec": 0.4280071944458622
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 416,
+        "Mid": {
+            "Elec": 5.382608856959997
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 417,
+        "Mid": {
+            "Elec": 15.56619375501397
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 418,
+        "Mid": {
+            "Elec": 21.88408501557107
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 419,
+        "Mid": {
+            "Elec": 24.4827931790855
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 420,
+        "Mid": {
+            "Elec": 25.30202961425172
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 421,
+        "Mid": {
+            "Elec": 25.07725318317185
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 422,
+        "Mid": {
+            "Elec": 23.61024374287848
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 423,
+        "Mid": {
+            "Elec": 19.43078505602315
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 424,
+        "Mid": {
+            "Elec": 10.10672198113991
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 425,
+        "Mid": {
+            "Elec": 2.160479303455477
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 426,
+        "Mid": {
+            "Elec": 0.09660476128443247
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 427,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 428,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 429,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 430,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 431,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 432,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 433,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 434,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 435,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 436,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 437,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 438,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 439,
+        "Mid": {
+            "Elec": 0.4374271607951741
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 440,
+        "Mid": {
+            "Elec": 5.44904968344504
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 441,
+        "Mid": {
+            "Elec": 15.31446018618981
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 442,
+        "Mid": {
+            "Elec": 21.53795135843785
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 443,
+        "Mid": {
+            "Elec": 24.04145773437943
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 444,
+        "Mid": {
+            "Elec": 24.74705329890608
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 445,
+        "Mid": {
+            "Elec": 24.57959836518587
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 446,
+        "Mid": {
+            "Elec": 22.93481211315124
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 447,
+        "Mid": {
+            "Elec": 18.80535941787363
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 448,
+        "Mid": {
+            "Elec": 9.910305661515958
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 449,
+        "Mid": {
+            "Elec": 2.213792304496263
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 450,
+        "Mid": {
+            "Elec": 0.120355101973655
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 451,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 452,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 453,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 454,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 455,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 456,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 457,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 458,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 459,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 460,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 461,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 462,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 463,
+        "Mid": {
+            "Elec": 0.4477490388162285
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 464,
+        "Mid": {
+            "Elec": 5.520501130328648
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 465,
+        "Mid": {
+            "Elec": 15.73936079598856
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 466,
+        "Mid": {
+            "Elec": 21.81062932052804
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 467,
+        "Mid": {
+            "Elec": 24.17043110343863
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 468,
+        "Mid": {
+            "Elec": 24.78292934095985
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 469,
+        "Mid": {
+            "Elec": 24.41895787520771
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 470,
+        "Mid": {
+            "Elec": 22.90114074407284
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 471,
+        "Mid": {
+            "Elec": 19.09427179005518
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 472,
+        "Mid": {
+            "Elec": 10.60738317136504
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 473,
+        "Mid": {
+            "Elec": 2.518237599913386
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 474,
+        "Mid": {
+            "Elec": 0.1376918485527077
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 475,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 476,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 477,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 478,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 479,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 480,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 481,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 482,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 483,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 484,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 485,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 486,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 487,
+        "Mid": {
+            "Elec": 0.4098687486030382
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 488,
+        "Mid": {
+            "Elec": 4.879642781351526
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 489,
+        "Mid": {
+            "Elec": 14.62840604121758
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 490,
+        "Mid": {
+            "Elec": 20.97155082858348
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 491,
+        "Mid": {
+            "Elec": 23.59130359777189
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 492,
+        "Mid": {
+            "Elec": 24.29228939153186
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 493,
+        "Mid": {
+            "Elec": 24.13966589419141
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 494,
+        "Mid": {
+            "Elec": 22.38504684302012
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 495,
+        "Mid": {
+            "Elec": 18.27303110672954
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 496,
+        "Mid": {
+            "Elec": 9.805483482777868
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 497,
+        "Mid": {
+            "Elec": 2.2942628680973
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 498,
+        "Mid": {
+            "Elec": 0.1159457560229133
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 499,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 500,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 501,
+        "Mid": {
+            "Elec": 50000.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 502,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 503,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 504,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 505,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 506,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 507,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 508,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 509,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 510,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 511,
+        "Mid": {
+            "Elec": 0.4286084688936906
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 512,
+        "Mid": {
+            "Elec": 5.18278531546502
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 513,
+        "Mid": {
+            "Elec": 15.1837832061951
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 514,
+        "Mid": {
+            "Elec": 21.40827650252285
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 515,
+        "Mid": {
+            "Elec": 23.85355946943306
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 516,
+        "Mid": {
+            "Elec": 24.57859624110615
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 517,
+        "Mid": {
+            "Elec": 24.36905209603795
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 518,
+        "Mid": {
+            "Elec": 22.99884784184496
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 519,
+        "Mid": {
+            "Elec": 19.34099473848078
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 520,
+        "Mid": {
+            "Elec": 10.79548186112736
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 521,
+        "Mid": {
+            "Elec": 2.616545972133333
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 522,
+        "Mid": {
+            "Elec": 0.139495671896193
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 523,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 524,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 525,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 526,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 527,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 528,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 529,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 530,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 531,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 532,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 533,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 534,
+        "Mid": {
+            "Elec": 0.0
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 535,
+        "Mid": {
+            "Elec": 0.4492522249357995
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 536,
+        "Mid": {
+            "Elec": 5.193608255525931
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 537,
+        "Mid": {
+            "Elec": 14.72491059009404
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 538,
+        "Mid": {
+            "Elec": 20.70097732706069
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 539,
+        "Mid": {
+            "Elec": 23.04785170934298
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 540,
+        "Mid": {
+            "Elec": 23.55071757254348
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 541,
+        "Mid": {
+            "Elec": 23.40711319192045
+        }
+    },
+    {
+        "support_timeframe": 2020,
+        "t": 542,
+        "Mid": {
+            "Elec": 22.35708758119609
+        }
+    }
+]
