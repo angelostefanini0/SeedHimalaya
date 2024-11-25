@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbs Results</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            background-image: url('https://images.hdqwalls.com/download/rocky-mountains-in-himalayas-4k-q3-3840x2160.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-bottom: 1.5rem; /* Increased space below the heading */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px; /* Increased top margin */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #showresults {
+            width: 300px;
+            height: 75px;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+<div class="overlay">
+    <h2>Urbs run successfully and produced results</h2>
+    
+    <form action="{{ url_for('upload_urbs_results') }}" method="post">
+        <button type="submit" id="showresults">Show Urbs Results</button>
+    </form>
+
+    {% if image_filename %}
+    <img src="{{ url_for('static', filename='images/' + image_filename) }}" alt="Urbs Results">
+    {% endif %}
+
+    <a href="/">Go back to Start Page</a>
+
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energetic Demand Estimator</title>
+        
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/stylesdemand.css" rel="stylesheet">
+
+    <style>
+        .info-icon {
+            cursor: pointer;
+            margin-left: 10px;
+            color: #007bff;
+        }
+        
+        .info-content {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+        <div class="progress-steps">
+            <div class="step" id="step1">Resources</div>
+            <div class="step" id="step2">Energetic Demand</div>
+            <div class="step" id="step3">Process and Commodities</div>
+        </div>
+    </div>
+    <div class="container shadow p-4">
+        
+        <h1 class="text-center mb-4">Energetic Demand Estimator</h1>
+
+        <p id="text-middle" class="text-center mb-4">
+            Use this tool to compute an estimation of the energy demand for your community
+            <i class="fas fa-info-circle info-icon" id="info-icon"></i>
+        </p>
+        <div class="info-content" id="info-content">
+            <p>This tool helps you to estimate the energy demand for different types of communities, including low-income households, average-income households, high-income households, primary health-care centers, and schools. Simply select the type of community, enter the quantity, and click 'Add' to include it in your selection.</p>
+        </div>
+
+        <div class="form-row align-items-center" id="projectNameForm">
+            <div class="col-md-10">
+                <input type="text" class="form-control" id="projectName" name="projectName" placeholder="Enter project name">
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </div>
+        </div>
+
+        <form id="energyForm" method="post" action="/calculate">
+            <div class="form-row align-items-center mb-3">
+                <div class="col-md-6">
+                    <label for="commodity" class="form-label">Select Community:</label>
+                    <select id="commodity" name="commodity" class="form-control">
+                        <option value="Low-income Household">Low-income Household</option>
+                        <option value="Average-income Household">Average-income Household</option>
+                        <option value="High-income Household">High-income Household</option>
+                        <option value="Primary Health-Care Center">Primary Health-Care Center</option>
+                        <option value="School">School</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="quantity" class="form-label">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" class="form-control" min="1" max="100" required>
+                </div>
+                <div class="col-md-2 align-self-end">
+                    <button type="submit" id="addButton" class="btn btn-primary btn-block">Add</button>
+                </div>
+            </div>
+        </form>
+        
+        <div class="list-container">
+            <hr class="mb-4">
+            <h2><i class="fas fa-check-circle fa-lg text-primary"></i> Your Selections</h2>
+            <ul id="commodityList"></ul>
+        </div>
+        
+        <div class="list-container">
+            <hr class="mb-4">
+            <h2><i class="fas fa-chart-bar fa-lg text-primary"></i> Total Demand</h2>
+            <pre id="totalDemand"></pre>
+        </div>
+        
+        <div class="text-center mt-3">
+            <hr class="mb-4">
+            <p id="text-middle">Alternatively, provide your own excel sheet</p>
+            <form action="/upload_and_sum" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                     <input type="file" id="file" name="file" required>
+                     <button type="submit" class="btn btn-primary" id="buttonupload">Upload and Calculate Sum</button>
+                </div>
+             </form>
+            {% if sum_result is not none %}
+                <div>
+                    <h3 id="ted">Total Energy Demand for a year: {{ sum_result }} kWh/y</h3>
+                </div>
+            {% endif %}
+        </div>
+
+        <hr class="mb-4">
+        <button id="generateJSONButton" class="btn btn-info mt-5 float-right">Next Step</button>
+        <button id="generateChartButton" class="btn btn-info mt-5 float-left">Generate Chart</button>
+
+    </div> 
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        document.getElementById('info-icon').addEventListener('click', function() {
+            const infoContent = document.getElementById('info-content');
+            if (infoContent.style.display === 'none' || infoContent.style.display === '') {
+                infoContent.style.display = 'block';
+            } else {
+                infoContent.style.display = 'none';
+            }
+        });
+
+        document.getElementById('energyForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const form = event.target;
+            const formData = new FormData(form);
+            fetch('/calculate', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('totalDemand').textContent = `Estimated demand for the community: ${data.total_demand} kWh/y`;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById('addButton').addEventListener('click', function() {
+            const commodity = document.getElementById('commodity').value;
+            const quantity = document.getElementById('quantity').value;
+
+            if (quantity >= 1 && quantity <= 100) {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${commodity}: ${quantity}`;
+                document.getElementById('commodityList').appendChild(listItem);
+            } else {
+                alert('Please enter a quantity between 1 and 100.');
+            }
+        });
+
+        document.getElementById('generateJSONButton').addEventListener('click', function() {
+            fetch('/generate_json')
+                .then(response => {
+                    if (response.ok) {
+                        window.location.href = '/process';
+                    } else {
+                        throw new Error('Errore nella richiesta');
+                    }
+                })
+                .catch(error => {
+                    console.error('Errore:', error);
+                });
+        });
+
+        document.getElementById('generateChartButton').addEventListener('click', function() {
+            fetch('/get_chart_data')
+                .then(response => response.json())
+                .then(data => {
+                    const ctx = document.getElementById('demandChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.labels,
+                            datasets: [{
+                                label: 'Energy Demand',
+                                data: data.values,
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                x: { 
+                                    title: {
+                                        display: true,
+                                        text: 'Time (t)'
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'Energy Demand (kWh)'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                    $('#chartModal').modal('show');
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+
+    <!-- Modal per il grafico -->
+    <div class="modal fade" id="chartModal" tabindex="-1" role="dialog" aria-labelledby="chartModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="chartModalLabel">Energy Demand Chart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <canvas id="demandChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renewables Ninja Project</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="static/mapstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+      /* Modal styles */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1000; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+        padding-top: 60px;
+      }
+
+      .modal-content {
+        background-color: #fefefe;
+        margin: 0 auto; /* Center the modal */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+        max-height: 80vh; /* Make sure the modal content doesn't overflow the viewport */
+        overflow: auto; /* Enable scroll if the content is too large */
+      }
+
+      .modal-content img {
+        width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      #loading {
+        display: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+      <div class="progress-steps">
+        <div class="step" id="step1">Resources</div>
+        <div class="step" id="step2">Energetic Demand</div>
+        <div class="step" id="step3">Process and Commodities</div>
+      </div>
+    </div>
+
+    <div class="container-1">
+      <div class="container">
+        <div class="header">
+          <h1>Find on Map</h1>
+          <i id="infoToggle" class="fas fa-info-circle"></i>
+          <div class="info-content" id="info-content">
+            <p>
+              By selecting a point on the map, you can download data from Renewable Ninja and HydroRivers regarding SUPIM-type resources available at your site. Alternatively, you can 
+              <a href="#" id="uploadFolder">upload your own data</a>
+              <input type="file" style="display: none;" id="fileInput" />
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <input type="text" id="location" placeholder="Location" />
+          <button id="searchButton" class="hh">Search</button>
+        </div>
+        <div class="row">
+          <label for="latitude">Lat:</label>
+          <input type="text" id="latitude" placeholder="" />
+          <label for="longitude">Lon:</label>
+          <input type="text" id="longitude" placeholder="" />
+        </div>
+        <div id="map"></div>
+        <button id="startButton" class="button">Start</button>
+        <div id="loading">Loading...</div>
+        <div class="row">
+          <button id="downloadPVButton" class="button1" style="display: none">
+            Download PV
+          </button>
+          <button id="downloadWindButton" class="button1" style="display: none">
+            Download Wind
+          </button>
+          <button id="getDischarge" class="button1" style="display: none">
+            See discharge
+          </button>
+        </div>
+        <button id="nextButtonMap" class="button">Next</button>
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="dischargeModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <img src="static/images/discharge_timeseries_plot.png" alt="Discharge Timeseries">
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var map = L.map("map").setView([27.8576, 79.6020], 5);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "© OpenStreetMap contributors",
+        }).addTo(map);
+
+        var marker;
+
+        function placeMarker(lat, lon) {
+          if (marker) {
+            marker.setLatLng([lat, lon]);
+          } else {
+            marker = L.marker([lat, lon]).addTo(map);
+          }
+        }
+
+        function reverseGeocode(lat, lon) {
+          fetch(
+            `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`
+          )
+            .then((response) => response.json())
+            .then((data) => {
+              if (data && data.display_name) {
+                document.getElementById("location").value = data.display_name;
+              } else {
+                document.getElementById("location").value =
+                  "Location not found";
+              }
+            })
+            .catch((error) => {
+              console.error("Error during reverse geocoding:", error);
+              document.getElementById("location").value =
+                "Error retrieving location";
+            });
+        }
+
+        map.on("click", function (e) {
+          var lat = e.latlng.lat;
+          var lon = e.latlng.lng;
+          placeMarker(lat, lon);
+          document.getElementById("latitude").value = lat;
+          document.getElementById("longitude").value = lon;
+          reverseGeocode(lat, lon);
+        });
+
+        document
+          .getElementById("startButton")
+          .addEventListener("click", function () {
+            var lat = document.getElementById("latitude").value;
+            var lon = document.getElementById("longitude").value;
+
+            if (lat && lon) {
+              document.getElementById("loading").style.display = "block";
+              fetch("/api/renewables", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ lat: lat, lon: lon }),
+              })
+                .then((response) => response.json())
+                .then((data) => {
+                  document.getElementById("loading").style.display = "none";
+                  if (data.error) {
+                    alert("Error: " + data.error);
+                  } else {
+                    console.log("Response from server:");
+                    console.log("Message:", data.message);
+                    console.log("PV JSON file:", data.pv_json_file);
+                    console.log("Wind JSON file:", data.wind_json_file);
+
+                    // Update download links
+                    var downloadPVButton =
+                      document.getElementById("downloadPVButton");
+                    var downloadWindButton =
+                      document.getElementById("downloadWindButton");
+                    var getDischarge =
+                      document.getElementById("getDischarge");
+
+                    downloadPVButton.style.display = "block";
+                    downloadWindButton.style.display = "block";
+                    getDischarge.style.display = "block";
+
+                    downloadPVButton.onclick = function () {
+                      window.location.href = "/downloads/" + data.pv_json_file;
+                    };
+
+                    downloadWindButton.onclick = function () {
+                      window.location.href =
+                        "/downloads/" + data.wind_json_file;
+                    };
+                  }
+                })
+                .catch((error) => {
+                  document.getElementById("loading").style.display = "none";
+                  console.error("Error:", error);
+                  alert("An error occurred while processing your request.");
+                });
+            } else {
+              alert("Please enter a location.");
+            }
+          });
+
+        document
+          .getElementById("searchButton")
+          .addEventListener("click", function () {
+            var location = document.getElementById("location").value;
+            if (location) {
+              fetch(
+                "https://nominatim.openstreetmap.org/search?format=json&q=" +
+                  location
+              )
+                .then((response) => response.json())
+                .then((data) => {
+                  if (data.length > 0) {
+                    var lat = data[0].lat;
+                    var lon = data[0].lon;
+                    map.setView([lat, lon], 13);
+                    placeMarker(lat, lon);
+                    document.getElementById("latitude").value = lat;
+                    document.getElementById("longitude").value = lon;
+                  } else {
+                    alert("Location not found!");
+                  }
+                });
+            } else {
+              alert("Please enter a location.");
+            }
+          });
+
+        document
+          .getElementById("nextButtonMap")
+          .addEventListener("click", function () {
+            fetch("/transform_files", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({}),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                console.log("Files moved successfully:", data);
+                // Optionally, redirect to another page or show a success message
+              })
+              .catch((error) => {
+                console.error("Error moving files:", error);
+                // Handle errors or show error message
+              });
+          });
+
+        document
+          .getElementById("nextButtonMap")
+          .addEventListener("click", function () {
+            fetch("/reset_total_series", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+            }).then((response) => {
+              if (response.ok) {
+                window.location.href = "/demand";
+              } else {
+                console.error("Failed to reset total series");
+              }
+            });
+          });
+
+        // Modal functionality
+        var modal = document.getElementById("dischargeModal");
+        var span = document.getElementsByClassName("close")[0];
+
+        document
+          .getElementById("getDischarge")
+          .addEventListener("click", function () {
+            modal.style.display = "block";
+          });
+
+        span.onclick = function () {
+          modal.style.display = "none";
+        };
+
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        };
+
+        // Toggle the display of the info content
+        var infoToggle = document.getElementById("infoToggle");
+        var infoContent = document.getElementById("info-content");
+
+        infoToggle.addEventListener("click", function () {
+          if (infoContent.style.display === "block") {
+            infoContent.style.display = "none";
+          } else {
+            infoContent.style.display = "block";
+          }
+        });
+
+        // Open the file dialog to select a folder
+        document
+          .getElementById("uploadFolder")
+          .addEventListener("click", async function (event) {
+            event.preventDefault();
+
+            try {
+              const directoryHandle = await window.showDirectoryPicker();
+              const folderName = directoryHandle.name;
+
+              alert(`Selected folder: ${folderName}`);
+              // You can perform other operations here with the selected folder
+            } catch (error) {
+              console.error("Error selecting folder:", error);
+              alert("An error occurred while selecting the folder.");
+            }
+          });
+      });
+    </script>
+  </body>
+</html>

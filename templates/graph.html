@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafico</title>
+</head>
+<body>
+    <h1>Grafico dei primi 72 valori della prima colonna</h1>
+    <img src="{{ url_for('static', filename='plot.png') }}" alt="Grafico">
+    <br>
+    <a href="{{ url_for('index') }}"><button>Back</button></a>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seed Himalaya</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">SEED HIMALAYA</div>
+        <nav>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#news-events">News & Events</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="connect-domain">
+            <a href="#">Connect Domain</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content">
+                <h1>Welcome to Seed Himalaya</h1>
+                <p>Empowering communities in the Himalayas with sustainable solutions.</p>
+                <a href="{{ url_for('map') }}" class="start-now-link">
+                    <button class="start-now">Start Now</button>
+                </a>
+            </div>
+        </section>
+        <!-- Additional sections can be added here -->
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
